@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Ilustrasi pompa booster multistage">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101c30" />
+      <stop offset="1" stop-color="#0a121f" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#1b2d49" stroke-width="1" />
+    </pattern>
+    <linearGradient id="accent" gradientUnits="userSpaceOnUse" x1="120" y1="40" x2="500" y2="360">
+      <stop offset="0" stop-color="#38bdf8" />
+      <stop offset="1" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bg)" />
+  <rect width="600" height="400" fill="url(#grid)" />
+
+  <g transform="translate(0,18)" fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Pipa masuk -->
+    <path d="M112 196h44" stroke-width="4" />
+    <rect x="96" y="182" width="14" height="28" rx="3" fill="#1b2d49" stroke-width="2" />
+
+    <!-- Motor -->
+    <rect x="156" y="158" width="56" height="76" rx="12" fill="#16253c" stroke-width="2.5" />
+    <path d="M212 196h30" stroke-width="4" />
+
+    <!-- Dudukan -->
+    <rect x="180" y="268" width="240" height="14" rx="7" fill="#16253c" stroke="#2b4a70" stroke-width="2" />
+
+    <!-- Stage 1 -->
+    <circle cx="292" cy="196" r="50" fill="#16253c" stroke-width="3" />
+    <circle cx="292" cy="196" r="17" stroke="#2b4a70" stroke-width="2" />
+    <circle cx="292" cy="196" r="6" fill="url(#accent)" stroke="none" opacity="0.85" />
+
+    <!-- Stage 2 -->
+    <circle cx="392" cy="196" r="50" fill="#16253c" stroke-width="3" />
+    <circle cx="392" cy="196" r="17" stroke="#2b4a70" stroke-width="2" />
+    <circle cx="392" cy="196" r="6" fill="url(#accent)" stroke="none" opacity="0.85" />
+
+    <!-- Pipa keluar -->
+    <path d="M442 196h52" stroke-width="4" />
+    <rect x="494" y="182" width="14" height="28" rx="3" fill="#1b2d49" stroke-width="2" />
+  </g>
+
+</svg>

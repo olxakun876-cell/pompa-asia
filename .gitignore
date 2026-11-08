@@ -1,0 +1,15 @@
+# --- Backup otomatis dari tools/replace-domain.ps1 / .sh ---
+# Jangan pernah di-commit: file .bak tidak boleh ikut ter-deploy ke Cloudflare Pages.
+*.bak
+*.bak.*
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# --- Folder yang tidak perlu di-deploy ---
+node_modules/
+dist/

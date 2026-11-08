@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nama": "Pompa Centrifugal CP-100",
+    "kategori": "Centrifugal",
+    "kapasitas": "50 m³/h",
+    "head": "30 m",
+    "daya": "15 kW",
+    "gambar": "assets/img/placeholder-centrifugal.svg",
+    "deskripsi": "Pompa centrifugal end-suction serbaguna untuk suplai air bersih, irigasi, dan sirkulasi cooling tower. Konstruksi cast iron dengan mechanical seal tahan aus.",
+    "merek": "Asia Pump",
+    "aplikasi": "Suplai air gedung, irigasi pertanian, sirkulasi air pendingin"
+  },
+  {
+    "id": 2,
+    "nama": "Pompa Centrifugal CP-200",
+    "kategori": "Centrifugal",
+    "kapasitas": "120 m³/h",
+    "head": "45 m",
+    "daya": "30 kW",
+    "gambar": "assets/img/placeholder-centrifugal.svg",
+    "deskripsi": "Pompa centrifugal kapasitas besar dengan impeller kuningan seimbang dinamis. Cocok untuk distribusi air industri dan fire hydrant ringan.",
+    "merek": "Asia Pump",
+    "aplikasi": "Distribusi air industri, booster gedung bertingkat, fire hydrant"
+  },
+  {
+    "id": 3,
+    "nama": "Pompa Submersible SP-75",
+    "kategori": "Submersible",
+    "kapasitas": "75 m³/h",
+    "head": "60 m",
+    "daya": "22 kW",
+    "gambar": "assets/img/placeholder-submersible.svg",
+    "deskripsi": "Pompa submersible sumur dalam dengan motor terendam penuh dan proteksi thermal. Ideal untuk pengambilan air tanah skala sedang hingga besar.",
+    "merek": "Nusantara Pump",
+    "aplikasi": "Sumur bor dalam, penyediaan air bersih perumahan, irigasi"
+  },
+  {
+    "id": 4,
+    "nama": "Pompa Submersible Limbah SPW-30",
+    "kategori": "Submersible",
+    "kapasitas": "30 m³/h",
+    "head": "25 m",
+    "daya": "7,5 kW",
+    "gambar": "assets/img/placeholder-submersible.svg",
+    "deskripsi": "Pompa submersible non-clog untuk air limbah dengan padatan hingga 50 mm. Dilengkapi cutter impeller dan dual mechanical seal.",
+    "merek": "Nusantara Pump",
+    "aplikasi": "Pengolahan air limbah, STP/WTP, drainase gedung, kolam ikan"
+  },
+  {
+    "id": 5,
+    "nama": "Pompa Gear PD-15",
+    "kategori": "Positive Displacement",
+    "kapasitas": "12 m³/h",
+    "head": "40 m",
+    "daya": "5,5 kW",
+    "gambar": "assets/img/placeholder-positive-displacement.svg",
+    "deskripsi": "Pompa gear (positive displacement) untuk fluida kental dengan aliran konstan tanpa pulsasi besar. Tersedia opsi material SS316 untuk bahan kimia.",
+    "merek": "Indo Fluidtech",
+    "aplikasi": "Minyak pelumas, cairan kental, transfer bahan kimia ringan"
+  },
+  {
+    "id": 6,
+    "nama": "Pompa Screw PD-50",
+    "kategori": "Positive Displacement",
+    "kapasitas": "40 m³/h",
+    "head": "60 m",
+    "daya": "18,5 kW",
+    "gambar": "assets/img/placeholder-positive-displacement.svg",
+    "deskripsi": "Pompa screw tiga ulir dengan efisiensi tinggi untuk fluida viskos dan aliran halus. Getaran dan kebisingan rendah, perawatan minimal.",
+    "merek": "Indo Fluidtech",
+    "aplikasi": "Transfer oli kelapa sawit, sludge, fluida viskos industri"
+  },
+  {
+    "id": 7,
+    "nama": "Pompa Booster BP-3",
+    "kategori": "Booster",
+    "kapasitas": "18 m³/h",
+    "head": "80 m",
+    "daya": "4 kW",
+    "gambar": "assets/img/placeholder-booster.svg",
+    "deskripsi": "Pompa booster multistage horizontal untuk menaikkan tekanan air bersih. Diameter impeller presisi menghasilkan head tinggi dengan daya kecil.",
+    "merek": "Asia Pump",
+    "aplikasi": "Booster gedung, sistem hidrofor, irigasi tetes"
+  },
+  {
+    "id": 8,
+    "nama": "Pompa Booster Multistage BP-10",
+    "kategori": "Booster",
+    "kapasitas": "25 m³/h",
+    "head": "120 m",
+    "daya": "11 kW",
+    "gambar": "assets/img/placeholder-booster.svg",
+    "deskripsi": "Pompa booster multistage vertikal untuk kebutuhan tekanan tinggi yang stabil. Casing stainless steel, cocok untuk air minum (food grade).",
+    "merek": "Asia Pump",
+    "aplikasi": "Air minum gedung, sistem RO industri, distribusi tekanan tinggi"
+  }
+]

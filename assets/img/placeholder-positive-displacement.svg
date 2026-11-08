@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Ilustrasi pompa positive displacement tipe gear">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101c30" />
+      <stop offset="1" stop-color="#0a121f" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#1b2d49" stroke-width="1" />
+    </pattern>
+    <linearGradient id="accent" gradientUnits="userSpaceOnUse" x1="120" y1="40" x2="500" y2="360">
+      <stop offset="0" stop-color="#38bdf8" />
+      <stop offset="1" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bg)" />
+  <rect width="600" height="400" fill="url(#grid)" />
+
+  <g transform="translate(0,18)" fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Pipa masuk & keluar -->
+    <path d="M196 204H140" stroke-width="4" />
+    <rect x="124" y="190" width="14" height="28" rx="3" fill="#1b2d49" stroke-width="2" />
+    <path d="M404 204h56" stroke-width="4" />
+    <rect x="460" y="190" width="14" height="28" rx="3" fill="#1b2d49" stroke-width="2" />
+
+    <!-- Dudukan -->
+    <rect x="220" y="272" width="160" height="14" rx="7" fill="#16253c" stroke="#2b4a70" stroke-width="2" />
+
+    <!-- Rumah pompa -->
+    <rect x="196" y="142" width="208" height="124" rx="24" fill="#16253c" stroke-width="3" />
+
+    <!-- Gear 1 -->
+    <circle cx="254" cy="204" r="48" stroke-width="6" stroke-dasharray="10 12" opacity="0.45" />
+    <circle cx="254" cy="204" r="40" stroke-width="2.5" />
+    <circle cx="254" cy="204" r="9" fill="url(#accent)" stroke="none" opacity="0.85" />
+
+    <!-- Gear 2 -->
+    <circle cx="346" cy="204" r="48" stroke-width="6" stroke-dasharray="10 12" opacity="0.45" />
+    <circle cx="346" cy="204" r="40" stroke-width="2.5" />
+    <circle cx="346" cy="204" r="9" fill="url(#accent)" stroke="none" opacity="0.85" />
+  </g>
+
+</svg>

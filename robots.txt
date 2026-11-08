@@ -1,0 +1,8 @@
+# robots.txt — Pompa Asia
+# File ini memberi tahu mesin pencari halaman mana yang boleh dirayapi.
+
+User-agent: *
+Allow: /
+
+# Lokasi sitemap
+Sitemap: https://pompa.my.id/sitemap.xml

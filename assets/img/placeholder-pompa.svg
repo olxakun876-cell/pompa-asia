@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Gambar pompa belum tersedia">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101c30" />
+      <stop offset="1" stop-color="#0a121f" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#1b2d49" stroke-width="1" />
+    </pattern>
+    <linearGradient id="accent" gradientUnits="userSpaceOnUse" x1="120" y1="40" x2="500" y2="360">
+      <stop offset="0" stop-color="#38bdf8" />
+      <stop offset="1" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bg)" />
+  <rect width="600" height="400" fill="url(#grid)" />
+
+  <g fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="300" cy="182" r="66" fill="#16253c" stroke-width="3.5" />
+    <circle cx="300" cy="182" r="40" stroke="#2b4a70" stroke-width="2" />
+    <path d="M300 182l22-22M300 182l22 22M300 182l-22 22M300 182l-22-22" stroke-width="2" opacity="0.55" />
+    <circle cx="300" cy="182" r="11" fill="url(#accent)" stroke="none" opacity="0.85" />
+    <path d="M300 116v-40h70" stroke-width="4" />
+    <path d="M366 182h60" stroke-width="4" />
+  </g>
+
+  <text x="300" y="342" text-anchor="middle" font-family="Inter, system-ui, sans-serif"
+        font-size="18" font-weight="600" letter-spacing="5" fill="#4d648a">GAMBAR BELUM TERSEDIA</text>
+</svg>

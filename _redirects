@@ -1,0 +1,7 @@
+# _redirects — aturan redirect khusus Cloudflare Pages
+# Dokumentasi: https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# Tujuan: www.pompa.my.id (duplikat) -> pompa.my.id (kanonik), permanen 301.
+# Aktif hanya setelah www.pompa.my.id ditambahkan sebagai Custom domain
+# di project Pages. Sebelum itu baris ini tidak berefek (host tidak resolve).
+https://www.pompa.my.id/* https://pompa.my.id/:splat 301
